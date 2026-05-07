@@ -1,7 +1,6 @@
 ---
 name: draft-post
-description: Generate 3 style variants (technical, business, founder) and 5 opening hooks for a specific LinkedIn series post (1-5).
-disable-model-invocation: true
+description: Draft the actual copy for a specific LinkedIn post (1 of 5 in the series) — produces 3 style variants (technical, business, founder), 5 opening hooks, and hashtags. Use this AFTER series-plan when the user wants to write the real text of post N. Requires the series plan from series-plan.
 argument-hint: "<post-number 1-5>"
 ---
 

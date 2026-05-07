@@ -1,7 +1,6 @@
 ---
 name: repurpose-post
-description: Transform a completed post draft into 4 derivative formats (short post, carousel script, comment version, DM explanation) for multi-channel distribution.
-disable-model-invocation: true
+description: Transform a finished LinkedIn post into 4 derivative formats (short post, carousel script, comment version, DM explanation) for multi-channel distribution. Use this AFTER draft-post N when the user wants to spread the same message across other channels or formats.
 argument-hint: "<post-number 1-5>"
 ---
 

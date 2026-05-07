@@ -1,7 +1,6 @@
 ---
 name: article-plan
-description: Generate a detailed section-by-section outline for a long-form technical article (1500-2500 words) about the current repository.
-disable-model-invocation: true
+description: Outline a long-form technical article (1500–2500 words) about the current repository, with each section mapped to verified claims and repo file references. Use this AFTER proof-pack when the user wants a long-form article or blog post (NOT a short LinkedIn post — for that use series-plan). Requires content/claims.md from proof-pack.
 argument-hint: "[angle, audience, or focus override, optional]"
 ---
 

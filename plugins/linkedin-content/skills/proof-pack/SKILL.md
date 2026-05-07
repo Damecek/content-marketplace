@@ -1,7 +1,6 @@
 ---
 name: proof-pack
-description: Extract verifiable, repo-grounded factual claims from the current repository as the factual foundation for all LinkedIn content. Run this first — every other skill in this plugin depends on it.
-disable-model-invocation: true
+description: Entry point for any LinkedIn content (post, article, or series) about the current repository. Use this FIRST whenever the user wants to write, draft, plan, or promote anything on LinkedIn about this project — it extracts the verifiable factual claims that every other drafting skill depends on. Triggers on intents like "write a LinkedIn post about this repo", "draft an article about this project", "promote this on LinkedIn".
 argument-hint: "[focus area or context, optional]"
 ---
 

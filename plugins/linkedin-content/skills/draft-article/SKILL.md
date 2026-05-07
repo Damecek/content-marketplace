@@ -1,7 +1,6 @@
 ---
 name: draft-article
-description: Write a complete publish-ready long-form article (1500-2500 words) from the article plan, with inline code snippets and direct repo links.
-disable-model-invocation: true
+description: Write the publish-ready long-form article (1500–2500 words) from the article plan, with inline code snippets and direct repo links. Use this AFTER article-plan when the user wants the final article text — this skill produces the actual prose, not the outline.
 argument-hint: "[tone, audience, or focus override, optional]"
 ---
 

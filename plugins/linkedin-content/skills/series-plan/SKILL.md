@@ -1,7 +1,6 @@
 ---
 name: series-plan
-description: Generate a 5-topic editorial roadmap for a LinkedIn series promoting the current repository, following the awareness -> adoption narrative arc.
-disable-model-invocation: true
+description: Plan a 5-post LinkedIn series for the current repository, following an awareness → adoption narrative arc. Use this AFTER proof-pack as the default planning step before drafting individual posts, or when the user explicitly wants a multi-post LinkedIn campaign about this project. Requires content/claims.md from proof-pack.
 argument-hint: "[context or topic overrides, optional]"
 ---
 

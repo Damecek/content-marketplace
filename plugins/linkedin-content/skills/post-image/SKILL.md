@@ -1,7 +1,6 @@
 ---
 name: post-image
-description: Generate a detailed Gemini image prompt (1200x627 LinkedIn infographic) from a post draft. Picks one of 6 visual concepts based on the post content.
-disable-model-invocation: true
+description: Generate a Gemini image prompt (1200x627 LinkedIn infographic) plus alt text from a finished post draft. Use this AFTER draft-post N when the user wants the visual asset for a specific post — picks one of 6 visual concepts based on the post content.
 argument-hint: "<post-number>"
 ---
 
