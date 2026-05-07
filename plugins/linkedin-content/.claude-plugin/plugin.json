@@ -1,0 +1,11 @@
+{
+  "name": "linkedin-content",
+  "description": "Set of skills for creating LinkedIn content (long-form articles, post series, image prompts, multi-channel repurpose). All outputs are grounded in facts extracted from the target repository.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Adam Stepanek",
+    "email": "adam.stepanek@carvago.com"
+  },
+  "license": "MIT",
+  "keywords": ["linkedin", "content", "writing", "marketing", "open-source"]
+}

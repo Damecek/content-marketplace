@@ -1,0 +1,18 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "damecek-content-marketplace",
+  "description": "Marketplace with plugins for content creation",
+  "owner": {
+    "name": "Adam Stepanek",
+    "email": "adam.stepanek@carvago.com"
+  },
+  "plugins": [
+    {
+      "name": "linkedin-content",
+      "source": "./plugins/linkedin-content",
+      "description": "Workflow for LinkedIn content creation from any repo: claims -> series -> article -> posts -> image -> repurpose. All outputs are grounded in repo facts.",
+      "category": "content",
+      "keywords": ["linkedin", "content", "writing", "marketing", "open-source"]
+    }
+  ]
+}
