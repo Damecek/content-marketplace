@@ -17,6 +17,8 @@ proof-pack ──▶ series-plan ──▶ draft-post N ──┬──▶ post-
 5. **`/linkedin-content:draft-post N`** (N=1–5) — Per series post: 3 style variants (technical/business/founder) + 5 hooks + hashtags → `content/posts/post-N/`.
 6. **`/linkedin-content:post-image N`** — Gemini image prompt for post N → `content/posts/post-N/image-prompt.md`.
 7. **`/linkedin-content:repurpose-post N`** — 4 derivative formats (short post, carousel, comment, DM) → `content/posts/post-N/derivatives.md`.
+8. **`/linkedin-content:copy-post-html N [variant]`** — Copy post N to the macOS clipboard as HTML (formatting preserved, requires pandoc).
+9. **`/linkedin-content:copy-post-text N [variant]`** — Copy post N to the macOS clipboard as plain UTF-8 (preserves Mathematical Bold/Italic).
 
 ## Output layout
 
